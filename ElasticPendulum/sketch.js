@@ -5,14 +5,15 @@ let pnts = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 function setup() {
   createCanvas(400, 400);
   
-  l = 150
-  g = 9.81
-  m = 9
-  k = 1
-  e = 15 + (m*g)/k
-  ed = 0
-  t = PI/6
-  td = 0
+  l = 150 // legnth of the spring with zero load
+  g = 9.81 // gravitational acceleration
+  m = 9 // mass of the load
+  k = 1 // spring constant of spring
+  e = 15 + (m*g)/k // initail extention of spring where mg/k is the equilibrium point
+  ed = 0 // initial velocity of extention
+  t = PI/6 // initial angle
+  td = 0 // initial angular velocity
+
   
   
   maxe = e
